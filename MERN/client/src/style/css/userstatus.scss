@@ -1,0 +1,57 @@
+.userstatus-container{
+
+
+    .padding{
+        margin-top: 20px;
+    }
+
+    .form-box {
+        flex-basis: 100%;
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+        padding: 24px;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+        min-height: 508px;
+      }
+
+      .btn-transparent {
+        border: 1px solid rgba(236, 239, 241, 0.07);
+        background: #7057cc;
+        color:white;
+        padding: 6px 0;
+        width: 30%;
+        margin: 0;
+        border-radius: 50px;
+      }
+
+    .media{
+      padding:5px 5px;
+      border-radius: 5px;
+      background:#fff;
+      p{
+        padding: 0;
+      }
+    }
+    .well{
+      border-bottom:  1px solid rgb(227, 227, 227);
+      border: 0;
+    }
+  
+    img{
+      width: 75px;
+      border: 1px solid rgb(123, 123, 123);
+      border-radius: 50%;
+      min-width: 75px;
+      margin-right: 10px;
+    }
+    .media-left{
+      padding: 0px
+    }
+  
+    .well  {
+      margin-bottom: 0; 
+    }
+  }
+  
