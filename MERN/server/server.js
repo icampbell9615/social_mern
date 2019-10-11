@@ -41,8 +41,12 @@ const server = app.listen(port, function(){
 // Configuration
 // ================================================================================================
 // Set up Mongoose
+if (process.env.NODE_ENV === "production") {
 
-const connection= process.env.DB_URL||config.local;
+  var connection = "mongodb://user1:password1@ds233288.mlab.com:33288/heroku_mb3ks19w";
+} else {
+  var connection = config.local;
+}
 
 mongoose.connect (connection, {
   useMongoClient: true
